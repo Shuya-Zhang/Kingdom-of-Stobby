@@ -1,0 +1,18 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    border: 1px red solid;
+}
+
+ul {
+    display: flex;
+    font-size: 25px;
+    list-style-type: none;
+    justify-content: space-around;    
+}
+
+a {
+    text-decoration: none;
+    background-color:rgb(170, 110, 226);
+    color:white;
+}
