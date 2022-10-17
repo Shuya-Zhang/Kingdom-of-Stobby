@@ -4,6 +4,13 @@
     border: 1px red solid;
 }
 
+body {
+    /* height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; */
+}
+
 ul {
     display: flex;
     font-size: 25px;
@@ -15,4 +22,9 @@ a {
     text-decoration: none;
     background-color:rgb(170, 110, 226);
     color:white;
+}
+
+.go-back {
+    position: fixed;
+    bottom: 0;
 }
