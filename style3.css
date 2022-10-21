@@ -1,0 +1,44 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    /* border: 1px red solid; */
+}
+
+h1 {
+    background-color: rgb(170,110,226);
+    padding: 15px;
+    font-size: 38px;
+    display: flex;
+    justify-content: center;
+    color: aliceblue;
+}
+
+.go-back {
+    position: fixed;
+    bottom: 0;
+}
+
+.boxes {
+    display: flex;
+    justify-content: space-around;
+    background-color: #1f2937;
+    padding: 25px;
+}
+
+.box {
+    width: 20%;
+}
+
+.picture {
+    width: 100%;
+    margin: 10px;
+    background-color: #fff;
+    border: rgb(170,110,226) solid 8px;
+}
+
+.word {
+    font-size: 20px;
+    text-align: center;
+    margin: 10px;
+    color: aliceblue;
+}
