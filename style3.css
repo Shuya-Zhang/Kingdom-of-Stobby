@@ -4,18 +4,23 @@
     /* border: 1px red solid; */
 }
 
-h1 {
+.top {
+    display: flex;
     background-color: rgb(170,110,226);
+}
+
+h1 {
     padding: 15px;
-    font-size: 38px;
+    font-size: 1.5rem;
     display: flex;
     justify-content: center;
     color: aliceblue;
+    width: 97%;
 }
 
+
 .go-back {
-    position: fixed;
-    bottom: 0;
+    width: 3%;
 }
 
 .boxes {
