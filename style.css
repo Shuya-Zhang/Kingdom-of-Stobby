@@ -54,10 +54,12 @@ a {
     justify-content: space-between;
     width: 80%;
     margin: 20px auto;
+    flex-wrap: wrap;
 }
 
 .left {
     flex: 1;
+    min-width: 100px;
 }
 
 .title {
