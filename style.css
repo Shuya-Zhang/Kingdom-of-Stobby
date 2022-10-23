@@ -7,7 +7,7 @@
 
 body {
     width: 100vw;
-    height: 120vw;
+    min-height: 100vh;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     min-height: 100vh;
 
@@ -35,13 +35,24 @@ body {
 }
 
 .logo {
-    font-weight: 700;
     margin: 0px 15px;
+    display: flex;
+}
+
+.flag {
+    width: 5%;
+    height: auto;
+}
+
+.name {
+    margin: 0 4px;
 }
 
 .links {
     display: flex;
     gap: 15px;
+    align-items: center;
+    font-size: 1rem;
 }
 
 a {
@@ -59,24 +70,26 @@ a {
 
 .left {
     flex: 1;
-    min-width: 400px;
+    min-width: 350px;
+    margin: 10px auto;
 }
 
 .title {
     font-weight: 800;
-    font-size: 1.5rem;
+    font-size: 2.5rem;
 }
 
 .subtext {
     padding: 14px 0px;
-    font-size: 0.75rem;
+    font-size: 1rem;
 }
 
-.button2 {
+.button1 {
     background-color: #005ff8;
     color: white;
     padding: 0.25rem 2.5rem;  
     margin: 5px 0px;
+    font-size: 1rem;
 }
 
 .right {
@@ -84,6 +97,7 @@ a {
     display: flex;
     align-items: center;
     flex-direction: column;
+    margin: auto;
 }
 
 .pic {
@@ -96,7 +110,7 @@ a {
 
 .statement {
     font-weight: 900;
-    font-size: 0.5rem;
+    font-size: 1rem;
     width: 70%;
     margin: 15px 0px;
     text-align: center;
@@ -126,8 +140,12 @@ a {
     border: 5px solid #3882f6 ;
 }
 
+.picture:hover {
+    scale: 1.1;
+    box-shadow: 3px 3px 6px rgba(185,37,230, 0.5);
+}
 .word {
-    font-size: 0.75rem;
+    font-size: 1rem;
     text-align: center;
 }
 
@@ -141,7 +159,7 @@ a {
 }
 
 .quote {
-    font-size: 1.5rem;
+    font-size: 2rem;
     margin: 20px;
     width: 50%;
     font-weight: lighter;
@@ -149,7 +167,7 @@ a {
 }
 
 .thor {
-    font-size: 1.rem;
+    font-size: 1.5rem;
     margin: 20px;
     color:#1f2937;
     width: 50%;
@@ -172,16 +190,23 @@ a {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    padding: 1rem 2rem;
 }
 
-.button {
+.button2 {
     background-color: #3882f6;
     border: 2px solid white;
     color: white;
     height: 2rem;
     padding: 0 2.5rem;
     margin: 10px;
-    
+    box-shadow: 2px 2px 3px rgba(0,0,0, 0.3);
+    border-radius: 5px;
+}
+
+.button2:hover {
+    cursor: pointer;
+    scale: 1.1;
 }
 
 .left2 {
@@ -192,16 +217,18 @@ a {
 
 .call {
     font-weight: 800;
-    font-size: 0.75rem;
+    font-size: 1.25rem;
+    margin: 0.5rem 0;
 }
 
 .sign-up {
-    font-size: 0.5rem;
+    font-size: 1rem;
+    margin: 0.5rem 0;
 }
 
 footer {
     width: 100%;
-    padding: 1rem;
+    padding: 1.25rem;
     font-size: 0.5rem;
     background-color: #212936;
     color: white;

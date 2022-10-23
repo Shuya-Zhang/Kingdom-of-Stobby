@@ -1,27 +1,38 @@
 * {
     margin: 0px;
     padding: 0px;
-    /* border: 1px red solid; */
+    border: 1px red solid;
+}
+
+body {
+    height: 100vh;
+    /* position: relative; */
 }
 
 .top {
     display: flex;
-    background-color: rgb(170,110,226);
+    background-color: rgb(170, 110, 226);
+    position: relative;
+}
+
+a {
+    /* flex: 1; */
+}
+
+.go-back {
+    width: 50px;
 }
 
 h1 {
     padding: 15px;
     font-size: 1.5rem;
-    display: flex;
-    justify-content: center;
     color: aliceblue;
-    width: 97%;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
 }
 
 
-.go-back {
-    width: 3%;
-}
 
 .boxes {
     display: flex;
@@ -38,7 +49,7 @@ h1 {
     width: 100%;
     margin: 10px;
     background-color: #fff;
-    border: rgb(170,110,226) solid 8px;
+    border: rgb(170, 110, 226) solid 8px;
 }
 
 .word {
@@ -47,3 +58,12 @@ h1 {
     margin: 10px;
     color: aliceblue;
 }
+
+/* .popup {
+    background-color: #fff;
+    padding: 5rem;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+} */
