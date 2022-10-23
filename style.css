@@ -59,7 +59,7 @@ a {
 
 .left {
     flex: 1;
-    min-width: 100px;
+    min-width: 400px;
 }
 
 .title {
@@ -111,8 +111,7 @@ a {
     gap: 3rem;
     justify-content: center;
     margin: 25px;
-    flex-wrap: wrap;
-    
+    flex-wrap: wrap;    
 }
 
 .box{
