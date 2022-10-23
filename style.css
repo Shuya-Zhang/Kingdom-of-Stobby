@@ -144,6 +144,7 @@ a {
     scale: 1.1;
     box-shadow: 3px 3px 6px rgba(185,37,230, 0.5);
 }
+
 .word {
     font-size: 1rem;
     text-align: center;
@@ -191,6 +192,7 @@ a {
     justify-content: space-around;
     align-items: center;
     padding: 1rem 2rem;
+    flex-wrap: wrap;
 }
 
 .button2 {
@@ -213,6 +215,7 @@ a {
     color: white;
     margin: 10px;
     width: 50%;
+    min-width: 200px;
 }
 
 .call {
