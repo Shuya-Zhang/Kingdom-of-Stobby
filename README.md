@@ -56,9 +56,26 @@ While making this page, I learnt many many things. So be prepared to look at the
     - The percentage sign will definitely come in handy if you want to make a responsive webpage (which of course you do so for me, I highly suggest % when it comes to margin, padding etc.)
 - Always use keyboard shortcuts (or else your dad would get angry for wasting time)
   - `Shift + Command + K` to delete a line
-  - `Command + Z` to cut
+  - `Command + X` to cut
   - `Option + Up arrow / Down arrow` to move a line
   - I only listed the ones that I know but do not use and of course there are way more. If you want to know more keyboard shortcuts to use in VS code, you can always ask your good friend Google
+- How to make the cursor turn to a pointer when I hover over something
+``` css
+.button2:hover {
+    cursor: pointer;
+}
+```
+- How to make something bigger when I hover over it
+``` css
+.button2:hover {
+    scale: 1.1;
+}
+```
+- How to give a shadow to something
+``` css
+    box-shadow: 1px 2px 3px rgba(0,0,0, 0.3);
+```
+1px for shadow on the `left`, 2px for shadow `below`, 3px for the size of the `glow`, and `rgba` stands for `red green blue alpha channel`(so basically the color and transparency) 
 - If you ever need help, before you start using Google (even though Google is a good friend of yours), call your dad.
   
 ### Ideas for future developement
@@ -86,5 +103,11 @@ So I decided to cut myself some slack and make future developements to be more s
 ### Credits
 So since I already listed the credits to how my landing page looks and all, this Credits section only applies to the pictures that I used in my landing page.
 
-- The images of the fruits are by [Icongeek26](https://www.flaticon.com/authors/icongeek26) from [flaticon.com](flaticon.com)
+- The image of the smiley face (which in case you don't know, is the flag of the Kingdom of Stobby because happiness, it's important) is by [Md Tanvirul Haque](https://www.flaticon.com/authors/md-tanvirul-haque) from [flaticon.com](https://www.flaticon.com/)
+- The image of the castle (which is NOT a picture of the Kingdom of Stobby) is by [brgfx](https://www.freepik.com/author/brgfx) from [freepik.com](https://www.freepik.com/)
+- The images of the fruits are by [Icongeek26](https://www.flaticon.com/authors/icongeek26) also from [flaticon.com](https://www.flaticon.com/)
+  
 ### Any issues
+Since I worked on this piece of code for so long, of course there are no problems at all. I mean, if there were any problems, I would have fixed them by now. Right?
+
+-None
