@@ -9,51 +9,46 @@ body {
     width: 100vw;
     min-height: 100vh;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    min-height: 100vh;
-
-}
-
-.top-container {
-    width: 100%;
-    background-color: rgb(163, 87, 233);
-    color: white;
-    padding: 0 0 0.5rem;
+    display: flex;
+    flex-direction: column;
 }
 
 .header {
-    display: flex;
-    padding: 10px;
-    justify-content: space-around;
-    width: 80%;
-    margin:auto;
-    font-size: 0.75rem;
-    background-color: #212936;
-    width: 100%;
     padding: 1.2rem;
+    background-color: #212936;
+    color: aliceblue;
+}
+
+.header-content {
+    margin: auto;
+    max-width: 1000px;
+    display: flex;
+    justify-content: space-between;
     flex-wrap: wrap;
 }
 
 .logo {
     margin: 0px 15px;
     display: flex;
+    max-width: 200px;
 }
 
 .flag {
-    width: 40px;
+    width: clamp(40px, 100%, 50px);
 }
 
 .name {
     margin: 0 4px;
-    font-size: 1rem;
+    font-size: clamp(1rem, 2vw, 1.25rem);
 }
 
 .links {
     display: flex;
     gap: 15px;
     align-items: center;
-    font-size: 1rem;
     min-width: 200px;
     margin: 0.5rem;
+    font-size: clamp(1rem, 2vw, 1.25rem);
 }
 
 a {
@@ -61,29 +56,38 @@ a {
     color: white;
 }
 
+.top-container {
+    flex: 1;
+    width: 100%;
+    background-color: rgb(163, 87, 233);
+    color: white;
+    padding: 0 0 0.5rem;
+}
+
 .middle {
     display: flex;
     justify-content: space-between;
-    width: 80%;
     margin: 20px auto;
     flex-wrap: wrap;
-    gap: 10%;
+    gap: 5%;
+    max-width: 1000px;
 }
 
 .left {
-    flex: 1;
-    min-width: 350px;
+    /* min-width: 100px; */
     margin: auto;
+    max-width: 400px;
+    padding: 1rem;
 }
 
 .title {
     font-weight: 800;
-    font-size: 2.5rem;
+    font-size: clamp(1.5rem, 2.75vw, 2.5rem);
 }
 
 .subtext {
     padding: 14px 0px;
-    font-size: 1rem;
+    font-size: clamp(1rem, 1.5vw, 1.5rem);
 }
 
 .button1 {
@@ -95,32 +99,27 @@ a {
 }
 
 .right {
-    flex: 1;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
+    max-width: 400px;
     margin: auto;
 }
 
 .pic {
-    display: block;
-    width: 80%;
-    background-color: gray;
-    font-size: 24px;
+    width: clamp(100px, 100%, 400px);
     margin: 1.5rem auto 0;
-    min-width: 350px;
 }
 
 .statement {
-    font-weight: 900;
-    font-size: 1rem;
-    width: 90%;
     margin: 0.5rem 0;
     text-align: center;
+    font-size: clamp(1rem, 2vw, 1.05rem);
 }
 
 .second-container {
+    flex: 1;
     width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .boxes {
@@ -129,16 +128,16 @@ a {
     justify-content: center;
     margin: 25px;
     flex-wrap: wrap;    
+    max-width: 1000px;
 }
 
 .box{
     min-width: 125px;
-    width: 15%;
-    
+    width: 20%;
 }
 
 .picture {
-    width: 100%;
+    width: clamp(125px, 100%, 275px);
     margin: auto;
     border: 5px solid #3882f6 ;
 }
@@ -149,7 +148,7 @@ a {
 }
 
 .word {
-    font-size: 1rem;
+    font-size: clamp(1rem, 1.25vw, 1.25rem);
     text-align: center;
 }
 
@@ -157,26 +156,28 @@ a {
     width: 100%;
     background-color: #e8e8e8;
     display: flex;
-    flex-direction: column; 
-    align-items: center;
     justify-content: center;
+    padding: 3vh;
+}
+
+.quote-container {
+    width: clamp(350px, 70%, 1000px);
 }
 
 .quote {
-    font-size: 2rem;
+    font-size: clamp(1.25rem, 2vw, 2rem);
     margin: 20px;
-    width: 50%;
     font-weight: lighter;
+    font-style: italic;
     color: #1f2937;
 }
 
 .thor {
-    font-size: 1.5rem;
+    font-size: clamp(1rem, 1.75vw, 1.75rem);
     margin: 20px;
     color:#1f2937;
-    width: 50%;
     text-align: right;
-    margin: 10px;
+    font-weight: 900;
 }
 
 .fourth-container {
@@ -189,12 +190,11 @@ a {
 
 .blue {
     background-color: #3882f6;
-    width: 70%;
+    max-width: 1000px;
     height: 40%;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items: center;
-    padding: 1rem 2rem;
     flex-wrap: wrap;
 }
 
@@ -239,6 +239,7 @@ footer {
     background-color: #212936;
     color: white;
     text-align: center;
+    font-size: clamp(0.5rem, 2vw, 0.75rem);
 }
 
 
