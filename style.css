@@ -27,6 +27,12 @@ body {
     flex-wrap: wrap;
 }
 
+.logo-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .logo {
     margin: 0px 15px;
     display: flex;
@@ -191,6 +197,7 @@ a {
 .blue {
     background-color: #3882f6;
     max-width: 1000px;
+    width: clamp(300px, 70%, 1000px);
     height: 40%;
     display: flex;
     justify-content: space-evenly;
@@ -246,7 +253,3 @@ footer {
     text-align: center;
     font-size: clamp(0.5rem, 2vw, 0.75rem);
 }
-
-
-
-

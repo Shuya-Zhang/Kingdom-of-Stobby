@@ -1,7 +1,7 @@
 * {
     margin: 0px;
     padding: 0px;
-    border: 1px red solid;
+    /* border: 1px red solid; */
 }
 
 body {
@@ -11,38 +11,41 @@ body {
 
 .top {
     display: flex;
+    align-items: center;
     background-color: rgb(170, 110, 226);
-    position: relative;
-}
-
-a {
-    /* flex: 1; */
 }
 
 .go-back {
-    width: 50px;
+    width: clamp(30px, 6%, 50px);
+    padding: 0 8px;
 }
 
 h1 {
     padding: 15px;
-    font-size: 1.5rem;
+    font-size: clamp(1.5rem, 2vw, 2rem);
     color: aliceblue;
-    position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
+    width: 1900%;
+    text-align: center;
 }
 
-
-
 .boxes {
-    display: flex;
-    justify-content: space-around;
     background-color: #1f2937;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.box-content {
     padding: 25px;
+    max-width: 1000px;
+    display: flex;
+    gap: 10%;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
 .box {
-    width: 20%;
+    width: clamp(150px, 20%, 300px);
 }
 
 .picture {
@@ -50,13 +53,20 @@ h1 {
     margin: 10px;
     background-color: #fff;
     border: rgb(170, 110, 226) solid 8px;
+    padding: 10px
+    width: clamp(130px, 20%, 280px)
 }
 
+.picture:hover {
+    scale: 1.1;
+    box-shadow: 2px 2px 3px rgba(226, 141, 229, 0.3);
+}
 .word {
-    font-size: 20px;
+    font-size: clamp(1rem, 1.5vw, 1.5rem);
     text-align: center;
     margin: 10px;
     color: aliceblue;
+    width: clamp(150px, 20%, 300px);
 }
 
 /* .popup {
