@@ -76,6 +76,10 @@ While making this page, I learnt many many things. So be prepared to look at the
     box-shadow: 1px 2px 3px rgba(0,0,0, 0.3);
 ```
 1px for shadow on the `left`, 2px for shadow `below`, 3px for the size of the `glow`, and `rgba` stands for `red green blue alpha channel`(so basically the color and transparency) 
+- How to give a rounded edge to something
+``` css
+button {border-radius: 5px}
+```
 - If you ever need help, before you start using Google (even though Google is a good friend of yours), call your dad.
   
 ### Ideas for future developement
@@ -111,3 +115,46 @@ So since I already listed the credits to how my landing page looks and all, this
 Since I worked on this piece of code for so long, of course there are no problems at all. I mean, if there were any problems, I would have fixed them by now. Right?
 
 -None
+
+## select-name.html
+So this page is made because in the Kingdom of Stobby (which I will now start calling KOS because typing "the Kingdom of Stobby" just takes too much effort), there are quite a lot of people and when I list all of them on the book, they take up about 3 pages, and since there were sections on the book, I thought why not also have 3 sections on the website? And yes, I could simply make a pop-up, but since I started already, I decided to just finish it. Anyway, here's the link: [the live weblink](https://medothings.github.io/Kingdom-of-Stobby/select-name.html). You're welcome.
+
+### What I learnt
+Ok so since I did a lot of the learning part in the landing page, there wasn't lots to learn here, but I'll just write the few things that I learnt either way.
+- When the name of the code suddenly turns red in VS code and it looks like nothing is wrong, simply get out the code and it will turn back to yellow (made changes but haven't commited yet) or white (commited already)
+- Even though I did not use this, I did learn how to make the header part stay at the top of the screen even when you scroll down. Let me just write down that code real quick
+``` css
+.header {
+    position: sticky;
+    top: 0; 
+    z-index: 1;
+}
+```
+- Also did not use this, but I learnt how to make a popup centered (or bascically another way to center things)
+``` css
+.popup {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+```
+- Ok this may sound lazy but sometimes, when there is something wrong, and you found a way to fix it but don't understand why it works, just move on (not gonna show an example).
+- When you think you pressed "A" but nothing happened, that means you pressed caps lock (very annoying)
+
+Ok this is kind of sad compared to how long my previous section was, but, I guess when you first start, you learn more things than you do later on, so...
+
+### Ideas for future developement
+
+Nothing really to write. But there are things I do want to finish in future though, so, here's the list of my ideas so far
+- Try to make the webpage look better, because right now, yes it does look pretty and all, but the white part at the bottom? Not loving it
+- Get the name lists done. I want it to look neat, simple, but still kinda complicated, you know? Like "Yes I look nice, but there's more to me than you think" ... or maybe not
+
+I guess that's all I can finish in a couple of days, so...that list done
+
+### Credits
+- Arrow button [Kirill Kazachek](https://www.flaticon.com/authors/kirill-kazachek) from [Flaticon](https://www.flaticon.com/)
+- Castle and farmhouse - [Freepik](https://www.flaticon.com/authors/freepik) from [Flaticon](https://www.flaticon.com/)
+- Witch house - [fancykeith](https://www.flaticon.com/authors/fancykeith) from [Flaticon](https://www.flaticon.com/)
+
+### Issues
