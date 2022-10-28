@@ -158,3 +158,6 @@ I guess that's all I can finish in a couple of days, so...that list done
 - Witch house - [fancykeith](https://www.flaticon.com/authors/fancykeith) from [Flaticon](https://www.flaticon.com/)
 
 ### Issues
+Ok so it's not a huge issue or anything, but it is definetely worth addressing. Since it's like literally one thing, I won't bother using point form.
+
+When you go into select-name.html, you will notice that at the top, it's colored, but at the bottom, it's just white. I'm not quite sure whether I like, or if I will change it. For now, I'll leave it the way it is, but in future I may or may not change it.
