@@ -1,0 +1,77 @@
+* {
+    padding: 0;
+    /* border: 1px red solid; */
+    margin: 0;
+}
+
+body {
+    background-color: #212936;
+}
+
+h1 {
+    background-color: rgb(170, 110, 226);
+    width: 100%;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+    font-size: clamp(1.5rem, 2vw, 2rem);
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    background-color: rgb(170, 110, 226);
+}
+
+.go-back {
+    width: clamp(30px, 6%, 50px);
+    padding: 0 8px;
+}
+
+h1 {
+    padding: 15px;
+    font-size: clamp(1.5rem, 2vw, 2rem);
+    color: aliceblue;
+    width: 1200%;
+    text-align: center;
+}
+
+
+h2 {
+    text-align: center;
+    margin: 1rem;
+    color: aliceblue;
+}
+
+.table {
+    display: flex;
+    justify-content: center;
+}
+
+table {
+    font-size: clamp(1rem, 2vw, 1.25rem);
+}
+
+th {
+    background-color: rgb(200,200,200);
+}
+
+.purple {
+    background-color: rgb(204, 118, 204);
+    color: rgb(129, 0, 129);
+}
+
+.blue {
+    background-color: rgb(134, 189, 238);
+    color: rgb(0, 80, 150);
+}
+
+.pink {
+    background-color: rgb(220, 113, 156);
+    color: rgb(182, 26, 88);
+}
+
+.green {
+    background-color: rgb(107, 206, 107);
+    color: rgb(13, 101, 13);
+}
