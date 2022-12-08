@@ -42,6 +42,7 @@ h1 {
     gap: 10%;
     justify-content: center;
     flex-wrap: wrap;
+    
 }
 
 .box {
@@ -50,7 +51,6 @@ h1 {
 
 .picture {
     width: 100%;
-    margin: 10px;
     background-color: #fff;
     border: rgb(170, 110, 226) solid 8px;
     padding: 10px;
@@ -64,7 +64,7 @@ h1 {
 .word {
     font-size: clamp(1rem, 1.5vw, 1.5rem);
     text-align: center;
-    margin: 10px;
+    margin: 10px 0;
     color: aliceblue;
     width: clamp(150px, 20%, 300px);
 }
