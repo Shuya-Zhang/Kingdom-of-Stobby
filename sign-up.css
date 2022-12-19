@@ -1,0 +1,108 @@
+* {
+    /* border: 1px red solid; */
+}
+
+body {
+    margin: 0;
+    display: flex;
+    height: 100vh;
+    background-color: rgb(245, 245, 245);
+    /* flex-wrap: wrap; */
+}
+
+.left {
+    width: 100vw;
+    background: url("https://images.unsplash.com/photo-1585202900225-6d3ac20a6962?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    width: 32vw;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top: 25%;
+}
+
+img {
+    height: 15vh;
+}
+
+h1 {
+    font-size: clamp(1.75rem, 4vw, 4rem);
+    color: white;
+}
+
+.right {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* min-width: 500px; */
+}
+
+h2 {
+    margin: 15px;
+    font-size: clamp(1.5rem, 2vw, 2.5rem);
+}
+
+.boxes-container {
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+    width: 67vw;
+}
+
+.boxes {
+    display: flex;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+}
+
+.start {
+    font-size: 1.5rem;
+    padding: 15px 20px;
+}
+
+input {
+    margin: 3px;
+    width: clamp(10rem, 15vw, 15rem);
+    height: 1.25rem;
+}
+
+.left-box {
+    margin: 0 40px 30px 20px;
+}
+
+.right-box {
+    margin: 0 20px 30px 20px;
+}
+
+.password-requirements {
+    width: clamp(10rem, 15vw, 15rem);
+    font-size: 0.75rem;
+}
+
+.text {
+    margin: 3px;
+}
+
+button {
+    width: clamp(6rem, 10vw, 10rem);
+    height: 2.5rem;
+    border-radius: 5px;
+    background-color: #596d48;
+    color: white;
+    margin: 20px;
+}
+
+.login {
+    margin: 0 20px;
+}
