@@ -161,3 +161,54 @@ I guess that's all I can finish in a couple of days, so...that list done
 Ok so it's not a huge issue or anything, but it is definetely worth addressing. Since it's like literally one thing, I won't bother using point form.
 
 When you go into select-name.html, you will notice that at the top, it's colored, but at the bottom, it's just white. I'm not quite sure whether I like, or if I will change it. For now, I'll leave it the way it is, but in future I may or may not change it.
+
+## Sign-up form
+Again, before I start talking about all the boring stuff that I was forced to write, go visit [the live weblink](https://medothings.github.io/Kingdom-of-Stobby/).    
+By the way, this page is based on [Project: Sign-up Form](https://www.theodinproject.com/lessons/node-path-intermediate-html-and-css-sign-up-form) of the [Intermediate HTML and CSS Course](https://www.theodinproject.com/paths/full-stack-javascript/courses/intermediate-html-and-css) from [the Odin Project](https://www.theodinproject.com)
+
+### What I learnt from creating this page
+
+- Instead of saying `background-width: 100vw`, instead, simply say `background-size: cover`
+- If you want something to not be in the middle of something else, say 
+``` css
+.logo {
+  position: absolute;
+  top: 25%;
+}
+```
+so that the top of `.logo ` will be at 25% point of the height of your screen
+- Sometimes, people say "Try not to use global variables as much as possible", but sometimes, you gotta do what you gotta do (also known as making a global variable)
+  - Also if you don't know why not to use global variables, answer's easy. It's very easy to make mistakes when you make a variable global. For example, in one function, you want a variable called `number`, which is equal to 5, and in another function, you want another variable called `number`, except in this case, number is equal to 6. If you made the `number` variable global, your whole code would be messed up, therefore try not to use global variables as much as possible. You're welcome.
+- If you see, my js code, there will be one part of it which is just constantly like this
+```js
+if (firstName.value.length < 2) {
+      firstName.style.backgroundColor = "#f36c6c";
+    } else {
+      firstName.style.backgroundColor = "#ffffff";
+    }
+    if (lastName.value.length < 1) {
+      lastName.style.backgroundColor = "#f36c6c";
+    } else {
+      firstName.style.backgroundColor = "#ffffff";
+    }
+```
+and on and on and on
+Like I said earlier, you gotta do what you gotta do
+- When you want to test if there is a number in a string or not, say
+``` js
+let num = /\d/.test(password);
+```
+- And when you want to text for special characters
+```js
+let specialChars = /[`!@#$%^&*()_+\-=\[\]{};':"\\|,.<>\/?~]/.test(password);
+```
+Both of these will either return `true` or `false` which you can then use in an if statement
+
+### Ideas for future developement
+- Make the page responsive
+  
+### Credits
+nil
+
+### Issues
+Probably none

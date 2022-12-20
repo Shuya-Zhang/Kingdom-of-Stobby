@@ -8,6 +8,8 @@ const confirmPassword = document.querySelector("#confirm-password");
 const submitBtn = document.querySelector("button");
 const pwdRequirements = document.querySelector(".password-requirements");
 let msg = "";
+let num;
+let specialChars
 
 inputEls.forEach((input) => {
   input.addEventListener("click", () => {
@@ -45,21 +47,21 @@ inputEls.forEach((input) => {
 });
 
 submitBtn.addEventListener("click", () => {
-  let num = /\d/.test(password);
-  const specialChars = /[`!@#$%^&*()_+\-=\[\]{};':"\\|,.<>\/?~]/.test(password);
-  console.log("run");
+  num = /\d/.test(password);
+  specialChars = /[`!@#$%^&*()_+\-=\[\]{};':"\\|,.<>\/?~]/.test(password);
   if (num === false) {
     console.log("false");
     msg = msg + " a number ";
     pwdRequirements.innerText = "Please include" + msg + "in your password";
-  } else if (msg.includes(" a number ") && num === false) {
+  } else if (msg.includes(" a number ") && num === true) {
+    console.log("true");
     msg = msg.replace(" a number ", "");
   }
   if (specialChars === false) {
     console.log("false");
     msg = msg + " a special character ";
     pwdRequirements.innerText = "Please include" + msg + "in your password";
-  } else if (msg.includes(" a special character ") && num === false) {
+  } else if (msg.includes(" a special character ") && num === true) {
     msg = msg.replace(" a special character  ", "");
   }
 });
