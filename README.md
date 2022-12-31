@@ -107,7 +107,7 @@ So I decided to cut myself some slack and make future developements to be more s
 ### Credits
 So since I already listed the credits to how my landing page looks and all, this Credits section only applies to the pictures that I used in my landing page.
 
-- The image of the smiley face (which in case you don't know, is the flag of the Kingdom of Stobby because happiness, it's important) is by [Md Tanvirul Haque](https://www.flaticon.com/authors/md-tanvirul-haque) from [flaticon.com](https://www.flaticon.com/)
+- The image of the smiley face (which in case you don't know, is the flag of the Kingdom of Stobby because of, well, happiness, it's important) is by [Md Tanvirul Haque](https://www.flaticon.com/authors/md-tanvirul-haque) from [flaticon.com](https://www.flaticon.com/)
 - The image of the castle (which is NOT a picture of the Kingdom of Stobby) is by [brgfx](https://www.freepik.com/author/brgfx) from [freepik.com](https://www.freepik.com/)
 - The images of the fruits are by [Icongeek26](https://www.flaticon.com/authors/icongeek26) also from [flaticon.com](https://www.flaticon.com/)
   
@@ -206,6 +206,10 @@ Both of these will either return `true` or `false` which you can then use in an 
 
 ### Ideas for future developement
 - Make the page responsive in the way such that when the page wraps, the logo will be in the middle of the image. I asked on Discord, and apparently, we will learn it, but further on in the course so I left it for now, but I'll probably get back to it later on when I do get to learn it. 
+
+### Credits 
+- The image of the smiley face is by [Md Tanvirul Haque](https://www.flaticon.com/authors/md-tanvirul-haque) from [flaticon.com](https://www.flaticon.com/)
+- The image of the purplr flower (which does not mean anything and is only chosen becuase it's purple) is by [Dustin Humes](https://unsplash.com/@dustinhumes_photogr) from [unsplash.com](https://unsplash.com/)
   
 ### Issues
 Probably none except for the responsiveness
