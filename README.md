@@ -205,10 +205,10 @@ let specialChars = /[`!@#$%^&*()_+\-=\[\]{};':"\\|,.<>\/?~]/.test(password);
 Both of these will either return `true` or `false` which you can then use in an if statement
 
 ### Ideas for future developement
-- Make the page responsive
+- Make the page responsive in the way such that when the page wraps, the logo will be in the middle of the image. I asked on Discord, and apparently, we will learn it, but further on in the course so I left it for now, but I'll probably get back to it later on when I do get to learn it. 
   
 ### Credits
 nil
 
 ### Issues
-Probably none
+Probably none except for the responsiveness

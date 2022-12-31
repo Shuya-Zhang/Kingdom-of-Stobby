@@ -45,31 +45,7 @@ inputEls.forEach((input) => {
   });
 });
 
-// submitBtn.addEventListener("click", () => {
-//   let msg = "";
-//   num = /\d/.test(password);
-//   specialChars = /[!@#$%^&*()_+\-=\[\]{};':"\\|,.<>\/?]+/.test(password);
-//   console.log("speical chars", specialChars);
-//   console.log("number", num);
-//   if (num === false) {
-//     console.log("false");
-//     msg = msg + " a number ";
-//     pwdRequirements.innerText = "Please include" + msg + "in your password";
-//   } else if (msg.includes(" a number ") && num === true) {
-//     console.log("true");
-//     msg = msg.replace(" a number ", "");
-//     pwdRequirements.innerText = "Please include" + msg + "in your password";
-//   }
-//   if (specialChars === false) {
-//     console.log("false");
-//     msg = msg + " a special character ";
-//     pwdRequirements.innerText = "Please include" + msg + "in your password";
-//   } else if (msg.includes(" a special character ") && specialChars === true) {
-//     msg = msg.replace(" a special character  ", "");
-//     pwdRequirements.innerText = "Please include" + msg + "in your password";
-//   }
-// });
-
 password.addEventListener("click", () => {
-  pwdRequirements.innerText = "Please include a number and a special character in your password"
-})
+  pwdRequirements.innerText =
+    "Please include a number and a special character in your password";
+});
