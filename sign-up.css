@@ -12,7 +12,7 @@ body {
 }
 
 .left {
-    background: url("https://images.unsplash.com/photo-1585202900225-6d3ac20a6962?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80");
+    background: url("https://images.unsplash.com/photo-1583564404814-3a057d41d567?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1155&q=80");
     background-size: cover;
     flex: 1;
     position: relative;
@@ -32,8 +32,8 @@ body {
 }
 
 img {
-    margin: 10px 0;
-    height: 9rem;
+    margin: 10px;
+    height: 6rem;
 }
 
 h1 {
@@ -61,7 +61,8 @@ form {
 .boxes-container {
     background-color: #fff;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
-    width: 100%;
+    width: 67vw;
+    margin: 0;
     flex-wrap: wrap;
 }
 
@@ -107,7 +108,7 @@ button {
     width: clamp(6rem, 10vw, 10rem);
     height: 2.5rem;
     border-radius: 5px;
-    background-color: #596d48;
+    background-color: rgb(163, 87, 233);
     color: white;
     margin: 20px;
 }
